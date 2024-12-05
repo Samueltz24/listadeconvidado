@@ -1,0 +1,38 @@
+*{
+    margin:  0;
+    padding: 0;
+}
+body{
+    background: #74FA5C;
+}
+main{
+    display: flex;
+    justify-content: center;
+     align-items: center;
+     height: 95vh;
+}
+nav{
+    background: #5CFAB4;
+    text-align: center;
+    font-size: 25px;
+    border-bottom: 2px #B6FA5C solid;
+    color: #fff;
+}
+#res{
+    margin-top: 10px;
+    border-radius: 5px 10px;
+    padding: 15px;
+    color: #fff;
+}
+.preencha{
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    border: #5CFAEA;
+    cursor: pointer;
+}
+.preencha:hover{
+    background: #89FAA2;
+    border: 2px solid #000;
+    color: #000;
+}
