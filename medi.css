@@ -1,0 +1,43 @@
+@media (max-width: 600px) {
+    #card{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 10%;
+    }
+    .preencha{
+        flex: 30%;
+        margin-top: 10px;
+        margin-left: 3px;
+    }
+  }
+  @media (min-width: 600px) and (max-width: 900px) {
+    #card{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 10%;
+    }
+    .preencha{
+        flex: 10%;
+        margin-left: 1%;
+       
+    }
+    .responde{
+        padding-top: 15px;
+        
+    }
+  }
+  @media (min-width: 1200px) {
+    #card{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 10%;
+    }
+    .preencha{
+        flex: 10%;
+        margin-left: 1%;
+    }
+    .responde{
+        padding-top: 15px;
+        
+    }
+  }
